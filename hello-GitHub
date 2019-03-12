@@ -1,0 +1,15 @@
+ new Thread（）{
+    public void run（）{
+        for（int i=1;i<x;i++）{
+            System.out.println("");
+        }
+    }
+ }.start();
+ 
+ new Thread(new Runnable(){
+    public void run(){
+        for(int i = 0;i<x;i++){
+            System.out,println("");
+        }
+    }
+}).start();
